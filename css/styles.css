@@ -145,3 +145,22 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+/* inputs */
+
+.input {
+  padding: 1.5rem 3.5rem;
+  border: 1px solid #00d9ff;
+  border-radius: 30px;
+  outline: 0;
+  color: var(--color-heading);
+  font-size: 2rem;
+}
+::placeholder {
+  color: darkgrey;
+}
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
