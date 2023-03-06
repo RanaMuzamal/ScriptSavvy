@@ -230,3 +230,33 @@ a {
 .media__image {
   margin-top: 1rem;
 }
+
+/* blockquote */
+.quote {
+  font-size: 3rem;
+  font-style: italic;
+  color: var(--color-body);
+}
+.quote__text::before {
+  content: open-quote;
+}
+.quote__text::after {
+  content: close-quote;
+}
+.quote__body {
+  font-style: normal;
+}
+.quote__author {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.quote__organization {
+  color: var(--color-heading);
+  opacity: 0.4;
+  font-size: 2rem;
+}
+.quote__line {
+  position: relative;
+  bottom: 10px;
+}
