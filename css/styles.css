@@ -136,20 +136,30 @@ a {
 
 /* icon */
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+}
+.icon--small {
+  width: 20px;
+  height: 20px;
 }
 .icon--primary {
   fill: #1b0760;
+}
+.icon--white {
+  fill: #ffffff;
 }
 .icon-container {
   background-color: #00d9ff;
   border-radius: 50px;
   display: inline-flex;
-  width: 64px;
-  height: 64px;
+  width: 54px;
+  height: 54px;
   justify-content: center;
   align-items: center;
+}
+.icon-container--accent {
+  background-color: #ff3400;
 }
 
 /* inputs */
@@ -259,4 +269,28 @@ a {
 .quote__line {
   position: relative;
   bottom: 10px;
+}
+
+/* grid */
+.grid {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .grid--cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.testimonial {
+  padding: 3rem;
+}
+.testimonial__image {
+  position: relative;
+}
+.testimonial__image > img {
+  width: 100%;
+}
+.testimonial__image > .icon-container {
+  position: absolute;
+  top: 3rem;
+  right: -32px;
 }

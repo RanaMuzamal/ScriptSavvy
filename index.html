@@ -14,24 +14,42 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <blockquote class="quote">
-      <p class="quote__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore hic asperiores laboriosam quae! Cum quos illo minima quis incidunt, rem necessitatibus. Commodi eligendi illo odio praesentium quae, deserunt quas esse pariatur ducimus accusantium provident molestiae ab? Dolorum minus possimus eos vel doloremque ab unde, consequatur minima, veniam, culpa pariatur itaque sint provident distinctio doloribus explicabo animi libero commodi totam? Qui alias corporis, eaque ipsum harum sapiente ullam sequi exercitationem, expedita libero quia eius dolorem neque, ad distinctio ut non possimus repudiandae beatae laudantium in quasi soluta? Aspernatur, ut assumenda?
-      </p>
-      <footer>
-        <div class="media">
-          <div class="media__image">
-            <svg class="icon icon--primary quote__line">
-              <use xlink:href="./images/sprite.svg#line"></use>
+  <body style="padding: 5rem;">
+    <!-- <div class="grid grid--cols-2">
+      <div style="height: 100px; background-color: gold;"></div>
+      <div style="height: 100px; background-color: rgb(255, 71, 30);"></div>
+    </div> -->
+    <div class="card testimonial">
+      <div class="grid grid--cols-2">
+        <div class="testimonial__image">
+          <img src="./images/testimonial.jpg" alt="customer happy review">
+          <span class="icon-container icon-container--accent">
+            <svg class="icon icon--white icon--small ">
+              <use xlink:href="./images/sprite.svg#quotes"></use>
             </svg>
-          </div>
-          <div class="media__body quote__body">
-            <h3 class="media__title quote__author">Fahad Raza</h3>
-            <p class="quote__organization">Teracepation</p>
-          </div>
-         </div>
-      </footer>
-    </blockquote>
+          </span>
+        </div>
+        <blockquote class="quote">
+          <p class="quote__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore hic asperiores laboriosam quae! Cum quos illo minima quis incidunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore hic asperiores laboriosam quae! Cum quos illo minima quis incidunt.
+          </p>
+          <footer>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use xlink:href="./images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body quote__body">
+                <h3 class="media__title quote__author">Fahad Raza</h3>
+                <p class="quote__organization">Teracepation</p>
+              </div>
+             </div>
+          </footer>
+        </blockquote>
+
+    </div>
+  </div>
   </body>
 </html>
